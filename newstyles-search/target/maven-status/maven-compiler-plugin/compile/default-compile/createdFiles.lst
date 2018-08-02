@@ -1,0 +1,11 @@
+com\newstyles\search\service\Impl\SearchServiceImpl.class
+com\newstyles\search\dao\Impl\SearchDaoImpl.class
+com\newstyles\search\controller\SearchController.class
+com\newstyles\search\mapper\ItemMapper.class
+com\newstyles\search\pojo\SearchResult.class
+com\newstyles\search\service\ItemService.class
+com\newstyles\search\service\Impl\ItemServiceImpl.class
+com\newstyles\search\dao\SearchDao.class
+com\newstyles\search\pojo\Item.class
+com\newstyles\search\controller\ItemController.class
+com\newstyles\search\service\SearchService.class

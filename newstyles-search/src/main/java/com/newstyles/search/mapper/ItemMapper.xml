@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.newstyles.search.mapper.ItemMapper">
+	<select id="getItemList" resultType="com.newstyles.search.pojo.Item">
+		select
+		itemtable.id,
+		itemtable.title,
+		itemtable.sell_point,
+		itemtable.price,
+		itemtable.image,
+		itemcattable.name category_name,
+		itemdesctable.item_desc
+
+		from
+		tb_item itemtable
+		left join tb_item_cat itemcattable on itemtable.cid = itemcattable.id
+		left join tb_item_desc itemdesctable  on itemtable.id = itemdesctable.item_id;
+	</select>
+</mapper>

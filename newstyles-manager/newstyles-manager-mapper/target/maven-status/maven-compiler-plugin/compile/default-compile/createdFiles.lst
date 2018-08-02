@@ -1,0 +1,11 @@
+com\newstyles\mapper\TbOrderMapper.class
+com\newstyles\mapper\TbContentMapper.class
+com\newstyles\mapper\TbUserMapper.class
+com\newstyles\mapper\TbItemParamMapper.class
+com\newstyles\mapper\TbItemCatMapper.class
+com\newstyles\mapper\TbItemParamItemMapper.class
+com\newstyles\mapper\TbContentCategoryMapper.class
+com\newstyles\mapper\TbOrderShippingMapper.class
+com\newstyles\mapper\TbItemMapper.class
+com\newstyles\mapper\TbItemDescMapper.class
+com\newstyles\mapper\TbOrderItemMapper.class
